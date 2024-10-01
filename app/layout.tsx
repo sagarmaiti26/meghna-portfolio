@@ -7,7 +7,7 @@ import { cn } from "@/lib/utils";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Meghna🌻",
+  title: "Meghna",
   description: "The one who always try to TRY",
 };
 

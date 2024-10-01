@@ -44,15 +44,13 @@ export default function Particles({
   useEffect(() => {
     onMouseMove();
   }, [mousePosition.x, mousePosition.y]);
-
-  useEffect(() => {
-    initCanvas();
-  }, [refresh]);
-
   const initCanvas = () => {
     resizeCanvas();
     drawParticles();
   };
+  useEffect(() => {
+    initCanvas();
+  }, [refresh]);
 
   const onMouseMove = () => {
     if (canvasRef.current) {
